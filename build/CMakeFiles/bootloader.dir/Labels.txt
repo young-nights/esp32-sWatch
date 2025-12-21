@@ -1,13 +1,13 @@
 # Target labels
  bootloader
 # Source files and their labels
-C:/Users/18452/Documents/GitHub-young-whites/esp32-sWatch/build/CMakeFiles/bootloader
-C:/Users/18452/Documents/GitHub-young-whites/esp32-sWatch/build/CMakeFiles/bootloader.rule
-C:/Users/18452/Documents/GitHub-young-whites/esp32-sWatch/build/CMakeFiles/bootloader-complete.rule
-C:/Users/18452/Documents/GitHub-young-whites/esp32-sWatch/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
-C:/Users/18452/Documents/GitHub-young-whites/esp32-sWatch/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
-C:/Users/18452/Documents/GitHub-young-whites/esp32-sWatch/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
-C:/Users/18452/Documents/GitHub-young-whites/esp32-sWatch/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
-C:/Users/18452/Documents/GitHub-young-whites/esp32-sWatch/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
-C:/Users/18452/Documents/GitHub-young-whites/esp32-sWatch/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
-C:/Users/18452/Documents/GitHub-young-whites/esp32-sWatch/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+I:/GitHub-young-nights/esp32-sWatch/build/CMakeFiles/bootloader
+I:/GitHub-young-nights/esp32-sWatch/build/CMakeFiles/bootloader.rule
+I:/GitHub-young-nights/esp32-sWatch/build/CMakeFiles/bootloader-complete.rule
+I:/GitHub-young-nights/esp32-sWatch/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+I:/GitHub-young-nights/esp32-sWatch/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+I:/GitHub-young-nights/esp32-sWatch/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+I:/GitHub-young-nights/esp32-sWatch/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+I:/GitHub-young-nights/esp32-sWatch/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+I:/GitHub-young-nights/esp32-sWatch/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+I:/GitHub-young-nights/esp32-sWatch/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

@@ -1,11 +1,11 @@
 {
   "C_Cpp.intelliSenseEngine": "default",
-  "idf.espIdfPathWin": "d:\\Espressif\\v5.1.2\\esp-idf",
-  "idf.pythonInstallPath": "d:\\Espressif\\tools\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.espIdfPathWin": "d:\\Espressif\\frameworks\\esp-idf-v5.1.2",
+  "idf.pythonInstallPath": "d:\\Espressif\\esp-tools-5.1.2\\tools\\idf-python\\3.11.2\\python.exe",
   "idf.openOcdConfigs": [
     "board/esp32s3-bridge.cfg"
   ],
-  "idf.toolsPathWin": "d:\\Espressif\\tools",
+  "idf.toolsPathWin": "d:\\Espressif\\esp-tools-5.1.2",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32s3"
   },
@@ -35,5 +35,14 @@
     "bsp_hwtimer.h": "c",
     "gui_guider.h": "c",
     "st7789.h": "c"
-  }
+  },
+  "cmake.configureEnvironment": {
+    "IDF_PATH": "D:/Espressif/frameworks/esp-idf-v5.1.2"
+  },
+  "cmake.generator": "Ninja",
+  "cmake.configureOnOpen": false,
+  "cmake.buildDirectory": "${workspaceFolder}/build",
+  "cmake.configureArgs": [
+    "-DIDF_TARGET=esp32"
+  ],
 }
