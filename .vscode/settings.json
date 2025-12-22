@@ -5,7 +5,7 @@
   "idf.openOcdConfigs": [
     "board/esp32s3-bridge.cfg"
   ],
-  "idf.toolsPathWin": "d:\\Espressif\\esp-tools-5.1.2",
+  "idf.toolsPathWin": "D:\\Espressif\\esp-tools-5.1.2",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32s3"
   },

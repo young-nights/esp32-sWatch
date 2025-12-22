@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "D:/Espressif/frameworks/esp-idf-v5.1.2/components/bootloader/subproject"
-  "I:/GitHub-young-nights/esp32-sWatch/build/bootloader"
-  "I:/GitHub-young-nights/esp32-sWatch/build/bootloader-prefix"
-  "I:/GitHub-young-nights/esp32-sWatch/build/bootloader-prefix/tmp"
-  "I:/GitHub-young-nights/esp32-sWatch/build/bootloader-prefix/src/bootloader-stamp"
-  "I:/GitHub-young-nights/esp32-sWatch/build/bootloader-prefix/src"
-  "I:/GitHub-young-nights/esp32-sWatch/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/18452/Documents/Github-young-nights/esp32-sWatch/build/bootloader"
+  "C:/Users/18452/Documents/Github-young-nights/esp32-sWatch/build/bootloader-prefix"
+  "C:/Users/18452/Documents/Github-young-nights/esp32-sWatch/build/bootloader-prefix/tmp"
+  "C:/Users/18452/Documents/Github-young-nights/esp32-sWatch/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/18452/Documents/Github-young-nights/esp32-sWatch/build/bootloader-prefix/src"
+  "C:/Users/18452/Documents/Github-young-nights/esp32-sWatch/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "I:/GitHub-young-nights/esp32-sWatch/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/18452/Documents/Github-young-nights/esp32-sWatch/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "I:/GitHub-young-nights/esp32-sWatch/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/18452/Documents/Github-young-nights/esp32-sWatch/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

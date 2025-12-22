@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("I:/GitHub-young-nights/esp32-sWatch/build/esp-idf/newlib/port/cmake_install.cmake")
+  include("C:/Users/18452/Documents/Github-young-nights/esp32-sWatch/build/esp-idf/newlib/port/cmake_install.cmake")
 endif()
 

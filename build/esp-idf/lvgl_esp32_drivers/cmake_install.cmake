@@ -1,4 +1,4 @@
-# Install script for directory: I:/GitHub-young-nights/esp32-sWatch/main/components/lvgl_esp32_drivers
+# Install script for directory: C:/Users/18452/Documents/Github-young-nights/esp32-sWatch/main/components/lvgl_esp32_drivers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

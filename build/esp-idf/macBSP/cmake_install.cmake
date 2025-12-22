@@ -1,4 +1,4 @@
-# Install script for directory: I:/GitHub-young-nights/esp32-sWatch/main/bsp_applications/macBSP
+# Install script for directory: C:/Users/18452/Documents/Github-young-nights/esp32-sWatch/main/bsp_applications/macBSP
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

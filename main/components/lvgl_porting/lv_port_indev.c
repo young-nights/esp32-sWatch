@@ -12,6 +12,7 @@
 #include "lv_port_indev.h"
 #include "../lvgl/lvgl.h"
 #include "bsp_key.h" // Include your button driver header
+#include "driver/gpio.h"
 
 /*********************
  *      DEFINES
@@ -456,10 +457,16 @@ static bool button_is_pressed(uint8_t id)
 {
 
     /*Your code comes here*/
-    
 
-
-    return false;
+    /*按键硬件为上拉，按下为低电平（见 bsp_key.c）*/
+    switch(id) {
+        case 0: /*Button 0 -> Power key -> GPIO9*/
+            return gpio_get_level(GPIO_NUM_9) == 0;
+        case 1: /*Button 1 -> Down key -> GPIO0*/
+            return gpio_get_level(GPIO_NUM_0) == 0;
+        default:
+            return false;
+    }
 }
 #endif /*USE_BUTTON*/
 
